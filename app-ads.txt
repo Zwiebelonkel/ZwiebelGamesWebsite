@@ -1,0 +1,3 @@
+# app-ads.txt für Zwiebel Games
+# Erforderliche Zeile für Google AdMob
+google.com, pub-6598292330712260, DIRECT, f08c47fec0942fa0
