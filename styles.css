@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Nunito"; /* Name der Schriftart */
-  src: url("Ashemark regular.otf") format("opentype"); /* Pfad zur OTF-Datei */
+ /* src: url("Ashemark regular.otf") format("opentype"); /* Pfad zur OTF-Datei */
 }
 
 /* Allgemein */
@@ -21,7 +21,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-  font-family: "Ashemark";
+  font-family: "Nunito";
 }
 
 header {
