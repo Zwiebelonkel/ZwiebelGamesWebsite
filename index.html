@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ZwiebelGames</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
@@ -18,53 +18,76 @@
       </nav>
     </div>
     <div class="logo-container">
-      <img src="logo.png" alt="Zwiebel Games Logo">
+      <img src="logo.png" alt="Zwiebel Games Logo" />
       <h1>ZwiebelGames</h1>
     </div>
   </header>
+
   <main>
+    <!-- About -->
     <section id="about" class="about">
       <h2>About</h2>
       <p>I am a single developer programming mostly webgames.</p>
     </section>
+
+    <!-- Game Links -->
     <section id="games" class="games">
       <h2>My Games</h2>
       <p>Check out my games on the following platforms:</p>
       <ul class="game-links">
         <li>
-          <a href="https://zwiebelonkel.itch.io/" target="_blank" rel="noopener noreferrer">
-            Itch.io
-          </a>
+          <a href="https://zwiebelonkel.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
         </li>
         <li>
-          <a href="https://play.google.com/store/apps/dev?id=7237929260257047382" target="_blank" rel="noopener noreferrer">
-            Google Play Store
-          </a>
+          <a href="https://play.google.com/store/apps/dev?id=7237929260257047382" target="_blank" rel="noopener noreferrer">Google Play Store</a>
         </li>
       </ul>
-    </section>
-    <iframe frameborder="0" src="https://itch.io/embed/3222448?dark=true" width="552" height="167"><a href="https://zwiebelonkel.itch.io/ball">Ball by Zwiebelonkel</a></iframe>
-    <iframe frameborder="0" src="https://itch.io/embed/2855410?dark=true" width="552" height="167"><a href="https://zwiebelonkel.itch.io/darkest-cards">Darkest Cards by Zwiebelonkel</a></iframe>
-    <iframe frameborder="0" src="https://itch.io/embed/2580325?dark=true" width="552" height="167"><a href="https://zwiebelonkel.itch.io/driver">DRIVER by Zwiebelonkel</a></iframe>
-    <iframe frameborder="0" src="https://itch.io/embed/3446536?dark=true" width="552" height="167"><a href="https://zwiebelonkel.itch.io/fighter">Fighter by Zwiebelonkel</a></iframe>
-    <iframe frameborder="0" src="https://itch.io/embed/1443100?dark=true" width="552" height="167"><a href="https://zwiebelonkel.itch.io/pitfall">Pitfall by Zwiebelonkel</a></iframe>
-    <iframe 
-  src="https://outside---between.web.app/" 
-  width="100%" 
-  height="800" 
-  frameborder="0" 
-  allowfullscreen>
-  Dein Browser unterstützt keine iframes.
-</iframe>
 
+      <!-- Showcase Grid -->
+      <div class="game-showcase">
+        <div class="game-card">
+          <h3>Ball</h3>
+          <iframe src="https://itch.io/embed/3222448?dark=true" frameborder="0"></iframe>
+        </div>
+
+        <div class="game-card">
+          <h3>Darkest Cards</h3>
+          <iframe src="https://itch.io/embed/2855410?dark=true" frameborder="0"></iframe>
+        </div>
+
+        <div class="game-card">
+          <h3>Driver</h3>
+          <iframe src="https://itch.io/embed/2580325?dark=true" frameborder="0"></iframe>
+        </div>
+
+        <div class="game-card">
+          <h3>Fighter</h3>
+          <iframe src="https://itch.io/embed/3446536?dark=true" frameborder="0"></iframe>
+        </div>
+
+        <div class="game-card">
+          <h3>Pitfall</h3>
+          <iframe src="https://itch.io/embed/1443100?dark=true" frameborder="0"></iframe>
+        </div>
+
+        <div class="game-card large">
+          <h3>Outside Between</h3>
+          <iframe src="https://outside---between.web.app/" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contact" class="contact">
       <h2>Contact</h2>
       <p>Any questions? <a href="mailto:lucamuller2004@gmail.com">lucamuller2004@gmail.com</a>.</p>
     </section>
   </main>
+
   <footer>
     <p>&copy; 2025 ZwiebelGames. Alle Rechte vorbehalten.</p>
   </footer>
+
   <script src="main.js"></script>
 </body>
 </html>
