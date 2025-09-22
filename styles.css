@@ -22,7 +22,6 @@ body {
 
 header {
   text-align: center;
-  padding: 2rem 1rem;
   background: var(--accent-color);
   color: var(--text-color);
 }
