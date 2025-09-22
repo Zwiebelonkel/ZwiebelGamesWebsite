@@ -204,3 +204,43 @@ html {
   height: 500px;
 }
 
+/* Placeholder für nicht geladene Spiele */
+.coming-soon-card {
+  position: relative;
+  background-color: #2a0038;
+  border: 2px dashed var(--secondary-color);
+  text-align: center;
+}
+
+.coming-soon-placeholder {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: repeating-linear-gradient(
+    45deg,
+    #3b0a4e,
+    #3b0a4e 10px,
+    #32003f 10px,
+    #32003f 20px
+  );
+  animation: pulse 2s infinite;
+  border-radius: 6px;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+
