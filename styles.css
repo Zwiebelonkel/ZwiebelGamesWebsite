@@ -31,7 +31,7 @@ header .logo-container {
   flex-direction: column;
   align-items: center;
   animation: fadeIn 1s ease-in-out;
-  padding-top: 8rem;
+  padding-top: 1rem;
 }
 
 header img {
