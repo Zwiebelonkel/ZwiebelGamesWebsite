@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+
 /* Farben */
 :root {
   --background-color: #2d003d;
@@ -7,7 +10,7 @@
 }
 
 @font-face {
-  font-family: "Ashemark"; /* Name der Schriftart */
+  font-family: "Nunito"; /* Name der Schriftart */
   src: url("Ashemark regular.otf") format("opentype"); /* Pfad zur OTF-Datei */
 }
 
